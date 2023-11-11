@@ -1,0 +1,57 @@
+.footer{
+    padding-top: 20px;
+    background-color: black;
+}
+.footer--contenedor{
+    width: 95%;
+    margin-inline:auto;
+}
+.iconos{
+    display: flex;
+    gap: 20px;
+}
+.iconos li{
+    width: 30px;
+    height: 30px;
+}
+
+.informacion{
+    display: grid;
+    color: rgb(133, 133, 133);
+    gap: 20px;
+    margin-block:20px;
+    font-size: 15px;
+}
+@media (min-width:400px) {
+    .informacion{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:768px) {
+    .informacion{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width:992px) {
+    .informacion{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+.informacion p:hover{
+    color: white;
+}
+
+.codigoServ{
+    display: flex;
+    color: rgb(133, 133, 133);
+    font-weight: 400;
+    padding-top: 3%;  
+    cursor: pointer;  
+}
+.contruccion{
+    color: rgb(133, 133, 133);
+    font-weight: 100;
+    padding-top: 3%;
+    font-size: 80%;
+    padding-bottom: 3%;
+}

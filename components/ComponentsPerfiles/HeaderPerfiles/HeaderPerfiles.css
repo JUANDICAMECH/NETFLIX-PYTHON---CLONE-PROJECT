@@ -1,0 +1,14 @@
+.container_heade{
+    width: 100%;
+    background-color: rgb(93, 94, 94);
+}
+
+
+.logo_netflix{
+    display: flex;
+    height: 100px;
+    width: 230px;
+    flex-direction: start;
+    cursor: pointer;
+    margin-top: 20px;
+}

@@ -1,0 +1,121 @@
+/* body{
+    background-image: url('../src/assets/img/fondoLogo.jpg');
+} */
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container_login_login{
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid ;
+    margin-top: 50px;
+    background-color: #000000BF;
+    border-radius: 1%;
+}
+
+.container_login_text{
+    display: flex;
+    flex-direction: start;
+    width: 80%;
+    margin-left: 36px;
+    font-size: 30px;
+    margin-top: 60px;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.container_login_input_email{
+    height: 40px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5%;
+    margin-top: 20px;
+    background-color: #333333;
+}
+
+.container_login_input_password{
+    height: 40px;
+    width: 80%;
+    margin-bottom: 30px;
+    border-radius: 5%;
+    background-color: #333333;
+}
+
+.container_login_button{
+    padding: 16px;
+    background-color: #E50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    font-size: 16px;
+    margin: 20px 0px 12px;
+}
+
+.container_login_check_help{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container_login_check_help p{
+    margin: 0;
+    font-size: 13px;
+    color: #737373;
+}
+
+.container_login_check_help label{
+    display: flex;
+    align-items: center;
+    color: #737373;
+}
+
+.container_login_text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.container_login_text1 p{
+    font-size: 13px;
+    color: #737373;
+}
+
+.container_login_text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    padding: 10px;
+}
+.container_login_text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 140px;  /*espaciado del contenido del login*/
+}
+.container_login_text2 p {
+    width: 90%;
+    text-align: justify;
+    color: #737373; 
+  }
+
+.container_login_text1, .container_login_text1{
+    margin-top: 30px;
+    padding: 15px;
+}
